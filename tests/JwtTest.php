@@ -1,6 +1,6 @@
 <?php
 
-namespace sizeg\jwt\tests;
+namespace sxnazirov\jwt\tests;
 
 class JwtTest extends TestCase
 {
@@ -35,7 +35,7 @@ class JwtTest extends TestCase
      */
     public function setUp()
     {
-        $this->jwt = \Yii::createObject(\sizeg\jwt\Jwt::class, [
+        $this->jwt = \Yii::createObject(\sxnazirov\jwt\Jwt::class, [
             ['key' => self::SECRET]
         ]);
     }

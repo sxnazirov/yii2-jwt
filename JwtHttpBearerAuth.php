@@ -1,6 +1,6 @@
 <?php
 
-namespace sizeg\jwt;
+namespace sxnazirov\jwt;
 
 use yii\di\Instance;
 use yii\filters\auth\AuthMethod;
@@ -15,7 +15,7 @@ use yii\filters\auth\AuthMethod;
  * {
  *     return [
  *         'bearerAuth' => [
- *             'class' => \sizeg\jwt\JwtHttpBearerAuth::className(),
+ *             'class' => \sxnazirov\jwt\JwtHttpBearerAuth::className(),
  *         ],
  *     ];
  * }
